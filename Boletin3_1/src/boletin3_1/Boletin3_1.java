@@ -12,7 +12,7 @@ public class Boletin3_1 {
         Consumo com2 = new Consumo(Double.parseDouble(JOptionPane.showInputDialog("Km ")),Double.parseDouble(JOptionPane.showInputDialog("Litros ")), Double.parseDouble(JOptionPane.showInputDialog("Velocidad Media")),Double.parseDouble(JOptionPane.showInputDialog("Precio gasolina ")));
         com2.consumoMedio(); //Visualizamos el valor "Consumo medio" del objeto "com2"
         com2.setLitros(Double.parseDouble(JOptionPane.showInputDialog("Litros "))); //Modificamos el valor del campo "Litros" para el objeto "com2"
-        JOptionPane.showMessageDialog(null, "La velocidad media es : " + com2.vMed);
+        JOptionPane.showMessageDialog(null, "La velocidad media es : " + com2.vMed); //Visualizamos por pantalla el valor de vMed para el objeto "com2"
     }
     
 }
